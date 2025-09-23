@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"time"
 
-	"go-garth/internal/api/client"
-	"go-garth/internal/types"
+	"github.com/sstent/go-garth-cli/internal/api/client"
+	"github.com/sstent/go-garth/models/types"
 )
 
 // SleepLevel represents different sleep stages
@@ -356,7 +356,7 @@ import (
 	"fmt"
 	"time"
 
-	"go-garth/internal/api/client"
+	"github.com/sstent/go-garth-cli/internal/api/client"
 )
 
 // TrainingStatus represents current training status

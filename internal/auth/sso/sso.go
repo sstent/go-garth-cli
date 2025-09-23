@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"go-garth/internal/auth/oauth"
-	types "go-garth/internal/models/types"
+	"github.com/sstent/go-garth/auth/oauth"
+	types "github.com/sstent/go-garth/models/types"
 )
 
 var (

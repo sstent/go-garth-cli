@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"go-garth/internal/data" // Import the data package
-	types "go-garth/internal/models/types"
-	"go-garth/pkg/garmin"
+	"github.com/sstent/go-garth/data" // Import the data package
+	types "github.com/sstent/go-garth/models/types"
+	"github.com/sstent/go-garth-cli/pkg/garmin"
 )
 
 var (

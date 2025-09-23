@@ -6,8 +6,8 @@ import (
 	"sort"
 	"time"
 
-	types "go-garth/internal/models/types"
-	shared "go-garth/shared/interfaces"
+	types "github.com/sstent/go-garth/models/types"
+	shared "github.com/sstent/go-garth-cli/shared/interfaces"
 )
 
 // DailyHRVDataWithMethods embeds types.DailyHRVData and adds methods

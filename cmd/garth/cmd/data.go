@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"go-garth/internal/auth/credentials"
-	"go-garth/pkg/garmin"
+	"github.com/sstent/go-garth/auth/credentials"
+	"github.com/sstent/go-garth-cli/pkg/garmin"
 
 	"github.com/spf13/cobra"
 )

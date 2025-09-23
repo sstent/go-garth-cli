@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"time"
 
-	internalClient "go-garth/internal/api/client"
-	"go-garth/internal/errors"
-	types "go-garth/internal/models/types"
-	shared "go-garth/shared/interfaces"
-	models "go-garth/shared/models"
+	internalClient "github.com/sstent/go-garth/api/client"
+	"github.com/sstent/go-garth/errors"
+	types "github.com/sstent/go-garth/models/types"
+	shared "github.com/sstent/go-garth-cli/shared/interfaces"
+	models "github.com/sstent/go-garth-cli/shared/models"
 )
 
 // Client is the main Garmin Connect client type

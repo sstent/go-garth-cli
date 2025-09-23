@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"go-garth/internal/auth/sso"
-	"go-garth/internal/errors"
-	types "go-garth/internal/models/types"
-	shared "go-garth/shared/interfaces"
-	models "go-garth/shared/models"
+	"github.com/sstent/go-garth/auth/sso"
+	"github.com/sstent/go-garth/errors"
+	types "github.com/sstent/go-garth/models/types"
+	shared "github.com/sstent/go-garth-cli/shared/interfaces"
+	models "github.com/sstent/go-garth-cli/shared/models"
 )
 
 // Client represents the Garmin Connect API client

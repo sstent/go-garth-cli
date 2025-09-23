@@ -3,8 +3,8 @@ package client_test
 import (
 	"testing"
 
-	"go-garth/internal/api/client"
-	"go-garth/internal/auth/credentials"
+	"github.com/sstent/go-garth/api/client"
+	"github.com/sstent/go-garth/auth/credentials"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
